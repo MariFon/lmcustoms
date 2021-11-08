@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+}
+.pagina-home {
+  background-image: url("../imagens/foto-garagem.jpg");
+}
+
+.pagina-customs {
+  background-image: url("../imagens/duas-portas.jpg");
+}
+
+.pagina-contato {
+  background-image: url("../imagens/porta-cinza-amarelo.jpg");
+}
+
+h1 {
+  font-family: "Roboto";
+  color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cabecalho {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 122px;
+  padding-right: 122px;
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+  margin-top: 90px;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  justify-content: space-between;
+  width: 700px;
+}
+
+.menu ul li a {
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+  font-size: 25px;
+  font-family: "Roboto";
+  color: black;
+  background-color: #409ed9;
+  border-radius: 8px;
+  text-decoration: none;
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+}
+
+.conteudo-principal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 122px;
+  padding-right: 122px;
+  min-height: 700px;
+}
+
+.coluna-texto,
+.coluna-foto {
+  width: 50%;
+  align-items: center;
+  height: auto;
+}
+
+.texto-titulo {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: "Roboto";
+  color: #d5d6dd;
+  margin: 20px;
+  text-align: center;
+}
+
+.texto-corpo {
+  align-content: justify;
+  font-size: 25px;
+  font-weight: 300;
+  font-family: "Roboto";
+  color: #201a1a;
+  line-height: 50px;
+  margin-top: 29px;
+  margin-bottom: 50px;
+  text-align: center;
+  background-color: #c4c4c4;
+}
+
+.botao-principal {
+  display: inline;
+  text-align: center;
+  padding: 27px 93px;
+  background-color: #7f8181;
+  border-radius: 8px;
+  font-size: 24px;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 150px;
+  box-shadow: #000 0 24px 48px 0;
+  filter: grayscale(0.5);
+}
+
+.coluna-foto {
+  text-align: right;
+}
+
+.foto-perfil {
+  width: 600px;
+  height: 450px;
+  object-fit: cover;
+  box-shadow: #000 0 24px 48px 0;
+  filter: grayscale(0.5);
+}
+
+.coluna-contato {
+  color: white;
+  column-count: 2;
+}
+
+.titulo-contato {
+  color: white;
+  padding: 100px 0px 100px 100px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.formulario {
+  font-size: 20px;
+  margin-left: 330px;
+}
+
+.coluna-redes{
+  margin-top: 50px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.titulo-redes {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 15px 0 15px 0;
+}
+
+.titulo-telefone {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 15px 0 15px 0;
+}
+
+
+.linha-fotos{
+ padding: 100px;
+ margin: 10px;
+}
+
+.coluna-fotos{
+  width: auto;
+}
